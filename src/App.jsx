@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './components/Hero';
 import ValueProps from './components/ValueProps';
 import HowItWorks from './components/HowItWorks';
+import Pricing from './components/Pricing';
 import CTASection from './components/CTASection';
 
 function Header() {
@@ -15,7 +16,7 @@ function Header() {
         <nav className="hidden gap-6 text-sm text-white/80 md:flex">
           <a href="#how" className="hover:text-white">How it works</a>
           <a href="#value" className="hover:text-white">Why Medva</a>
-          <a href="#cta" className="hover:text-white">Pricing</a>
+          <a href="#pricing" className="hover:text-white">Pricing</a>
         </nav>
         <a href="#cta" className="hidden rounded-md bg-white/10 px-4 py-2 text-sm font-medium text-white ring-1 ring-white/15 hover:bg-white/15 md:inline-block">Get started</a>
       </div>
@@ -33,6 +34,7 @@ export default function App() {
           <ValueProps />
         </div>
         <HowItWorks />
+        <Pricing />
         <CTASection />
       </main>
       <footer className="border-t border-white/10 bg-[#07090D] py-8 text-center text-sm text-white/60">
